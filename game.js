@@ -5,7 +5,7 @@
 // const user1select = document.getElementById("user1");
 // const user2select = document.getElementById("user2");
 
-// const btnUser1 = document.querySelector(".btn-1");
+// const btnUser1 = document.querySelector.n-1");
 // const btnUser2 = document.querySelector(".btn-2");
 
 // let resUser1, resUser2;
