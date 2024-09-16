@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"   
-    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Todo App</title>
 </head>
+
 <body>
     <div class="container">
         <div class="title">
@@ -15,9 +17,18 @@
             <span>TODO</span>
         </div>
         <div class="progress">
-            <span>Task Done Keep it up</span>
-            <span>1/3</span>
+            <div class="task-text">
+                <span id="task-text">Task Done</span>
+                <span id="keep-up"> Keep it up </span>
+            </div>
+
+            <span id="task-number">1/3</span>
+        </div>
+        <div class="input-class" >
+            <input id="new-input" size="73" type="text" />
+            <button type="submit" > submit </button>
         </div>
     </div>
 </body>
+
 </html>
