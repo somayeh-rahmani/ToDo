@@ -7,6 +7,7 @@
 body {
   background-color: #080808;
   color: whitesmoke;
+  font-family: sans-serif;
 }
 .title{
   margin: 80px 170px;
@@ -21,12 +22,34 @@ font-size: 4rem;
   font-weight: bold;
   font-family: sans-serif;
 }
+.contain-progress{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
 .progress{
-  display: inline-block;
-      padding: 5px 10px; 
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
       border: 1px solid #ccc;
-      border-radius: 5px; 
-  
+      border-radius: 10px;
+      gap: 200px;
+   
+}
+.progress > span{
+  display: flex;
+  border-radius: 50%;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  height: 100px;
+  width: 100px;
+}
+.task{
+margin: 20px;
 }
 
 
